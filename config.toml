@@ -1,8 +1,7 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Meghna"
+baseURL = "https://abhimanyughei.github.io/fitnessvibe/"
+title = "Fitness Vibe"
 theme = "meghna-hugo"
-themesDir = "./themes"
 # post pagination
 paginate = "6"
 # post excerpt

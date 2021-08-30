@@ -11,10 +11,13 @@ collections:
     label: "Pages"
     files:
       - label: "About Page"
-        name: "about"
+        name: "aboutPage"
         file: "data/en/about.yml"
         fields:
+          - label: about
+            name: about
           - {label: Title, name: title, widget: string}
+          - {label: Enable , name: enable, widget: boolean}
           - {label: Intro, name: intro, widget: markdown}
           - label: about_item
             name: about_item

@@ -26,4 +26,23 @@ collections:
                 fields:
                   - {label: Icon, name: icon, widget: string}
                   - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: string}\
+
+      - label: "Service Section"
+        name: "servicePage"
+        file: "data/en/service.yml"
+        fields:
+          - label: Service
+            name: service
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Enable , name: enable, widget: boolean}
+              - {label: Intro, name: intro, widget: markdown}
+              - label: service_item
+                name: service_item
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Name, name: name, widget: string}
                   - {label: Content, name: content, widget: string}

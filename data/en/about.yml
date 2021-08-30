@@ -10,4 +10,5 @@ about:
       icon: ti-thought
       title: terts
   enable: true
+  intro: test intro here
   title: About Us

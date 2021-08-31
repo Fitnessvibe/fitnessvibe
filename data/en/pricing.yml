@@ -3,6 +3,10 @@ pricing:
   pricing_table:
     - name: Free
       price: $99
+      pricing_table:
+        enable: true
+        label: Test
+        link: '#'
       services:
         - 1GB Disk Space
         - 10 Email Account

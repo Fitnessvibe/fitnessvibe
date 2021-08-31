@@ -208,8 +208,8 @@ collections:
                   - {label: Name, name: name, widget: string}
                   - {label: Unit, name: unit, widget: string}
                   - {label: Services, name: services, widget: list}
-                  - label: pricing_table
-                    name: pricing_table
+                  - label: button
+                    name: button
                     widget: object
                     fields:
                      - {label: Label, name: label, widget: string}

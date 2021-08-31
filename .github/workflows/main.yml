@@ -31,7 +31,7 @@ jobs:
            extended: true
            
       - name: Hugo Build
-        run: huge
+        run: hugo
            
       - name: GitHub Pages Deploy
         uses: crazy-max/ghaction-github-pages@v2.5.0

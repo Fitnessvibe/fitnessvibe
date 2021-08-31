@@ -1,12 +1,11 @@
 pricing:
   enable: true
   pricing_table:
-    - name: Free
-      price: $99
-      pricing_table:
-        enable: true
+    - button:
         label: Test
         link: '#'
+      name: Free
+      price: $99
       services:
         - 1GB Disk Space
         - 10 Email Account
@@ -15,7 +14,11 @@ pricing:
         - 10 GB Bandwidth
         - 24/7 Tech Support
       unit: month
-    - name: Silver
+    - button:
+        enable: true
+        label: Test
+        link: '#'
+      name: Silver
       price: $149
       services:
         - 1GB Disk Space

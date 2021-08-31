@@ -281,3 +281,28 @@ collections:
                   - {label: Link, name: link, widget: string}
                   - {label: Enable , name: enable, widget: boolean}
 
+
+
+  - name: "Analytics & Maps"
+    label: "Analytics"
+    files:
+      - label: "Banner HomePage"
+        name: "banner"
+        file: "data/en/banner.yml"
+        fields:
+          - label: banner
+            name: banner
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Enable , name: enable, widget: boolean}
+              - {label: Icon, name: icon, widget: string}
+              - {label: Content, name: content, widget: text}
+              - {label: Image , name: bg_image, widget: image}
+              - label: button
+                name: button
+                widget: object
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: enable , name: enable, widget: boolean}
+                  - {label: Link, name: link, widget: string}

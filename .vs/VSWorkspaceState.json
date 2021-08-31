@@ -1,14 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\data",
-    "\\data\\en",
-    "\\themes",
+    "\\content\\english\\author",
+    "\\docs",
+    "\\docs\\admin",
     "\\themes\\meghna-hugo",
     "\\themes\\meghna-hugo\\layouts",
-    "\\themes\\meghna-hugo\\layouts\\partials",
-    "\\themes\\meghna-hugo\\layouts\\_default"
+    "\\themes\\meghna-hugo\\layouts\\partials"
   ],
-  "SelectedNode": "\\data\\en\\portfolio.yml",
+  "SelectedNode": "\\docs\\admin\\config.yml",
   "PreviewInSolutionExplorer": false
 }

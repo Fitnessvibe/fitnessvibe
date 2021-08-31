@@ -165,3 +165,41 @@ collections:
                   - {label: Label, name: label, widget: string}
                   - {label: Link, name: link, widget: string}
                   - {label: Enable , name: enable, widget: boolean}
+
+      - label: "Feature"
+        name: "feature"
+        file: "data/en/feature.yml"
+        fields:
+          - label: Feature
+            name: cta
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string} 
+              - {label: Content, name: content, widget: string}
+              - {label: Image, name: bg_image, widget: image}
+              - {label: Enable , name: enable, widget: boolean}
+              - label: feature_item
+                name: feature_item
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Content , name: content, widget: string}
+
+      - label: "Statistics"
+        name: "funfacts"
+        file: "data/en/funfacts.yml"
+        fields:
+          - label: funfacts
+            name: funfacts
+            widget: object
+            fields:
+              - {label: Image, name: bg_image, widget: image}
+              - {label: Enable , name: enable, widget: boolean}
+              - label: counter_item
+                name: counter_item
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Count , name: count, widget: string}

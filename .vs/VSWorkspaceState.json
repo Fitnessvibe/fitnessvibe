@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.forestry",
-    "\\.forestry\\front_matter",
-    "\\.forestry\\front_matter\\templates",
+    "\\data",
+    "\\data\\en",
+    "\\docs\\admin",
     "\\themes\\meghna-hugo",
     "\\themes\\meghna-hugo\\layouts",
-    "\\themes\\meghna-hugo\\layouts\\partials"
+    "\\themes\\meghna-hugo\\layouts\\partials",
+    "\\themes\\meghna-hugo\\layouts\\_default"
   ],
-  "SelectedNode": "\\.forestry\\front_matter\\templates\\post.yml",
+  "SelectedNode": "\\data\\en\\service.yml",
   "PreviewInSolutionExplorer": false
 }

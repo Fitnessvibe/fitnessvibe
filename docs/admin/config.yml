@@ -125,3 +125,43 @@ collections:
                   - {label: Subject, name: subject, widget: string}
                   - {label: Message, name: message, widget: string}
                   - {label: Submit, name: submit, widget: string}
+
+      - label: "Skills"
+        name: "Skills"
+        file: "data/en/skill.yml"
+        fields:
+          - label: Skills
+            name: skill
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Sub Title, name: subtitle, widget: string}
+              - {label: Content, name: content, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Enable , name: enable, widget: boolean}
+              - label: skill_item
+                name: skill_item
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Percent, name: percent, widget: string}
+
+      - label: "Center Contact Us Button"
+        name: "cta"
+        file: "data/en/cta.yml"
+        fields:
+          - label: Center Contact Us Button
+            name: cta
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string} 
+              - {label: Content, name: content, widget: string}
+              - {label: Image, name: bg_image, widget: image}
+              - {label: Enable , name: enable, widget: boolean}
+              - label: button
+                name: button
+                widget: object
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: Link, name: link, widget: string}
+                  - {label: Enable , name: enable, widget: boolean}

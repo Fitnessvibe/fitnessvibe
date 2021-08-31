@@ -1,12 +1,14 @@
-##################################### pricing ##############################
 pricing:
-  enable : true
-  title : Our Plans
-  pricing_table :
-    # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
+  enable: true
+  pricing_table:
+    - name: Free
+      price: $99
+      services: >-
+        List [ "1gjgjug", "10 Email Account", "Script Installer", "1 GB
+        Storage", "10 GB Bandwidth", "24/7 Tech Support" ]
+      unit: month
+    - name: Silver
+      price: $149
       services:
         - 1GB Disk Space
         - 10 Email Account
@@ -14,14 +16,9 @@ pricing:
         - 1 GB Storage
         - 10 GB Bandwidth
         - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
-      
-    # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
+      unit: month
+    - name: Gold
+      price: $199
       services:
         - 1GB Disk Space
         - 10 Email Account
@@ -29,14 +26,9 @@ pricing:
         - 1 GB Storage
         - 10 GB Bandwidth
         - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
-        
-    # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
+      unit: month
+    - name: Platinum
+      price: $299
       services:
         - 1GB Disk Space
         - 10 Email Account
@@ -44,21 +36,5 @@ pricing:
         - 1 GB Storage
         - 10 GB Bandwidth
         - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
-        
-    # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
+      unit: month
+  title: Our Plans

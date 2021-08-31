@@ -72,3 +72,28 @@ collections:
                      - {label: Label, name: label, widget: string}
                      - {label: Link, name: link, widget: string}
                      - {label: Enable , name: enable, widget: boolean}
+
+      - label: "Team"
+        name: "teamPage"
+        file: "data/en/team.yml"
+        fields:
+          - label: Team Members
+            name: team
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Enable , name: enable, widget: boolean}
+              - label: team_member
+                name: team_member
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Designation, name: designation, widget: string}
+                  - {label: Image, name: image, widget: image}
+                  - {label: Content, name: content, widget: markdown}
+                  - label: Social
+                    name: social
+                    widget: list
+                    fields:
+                     - {label: Icon, name: icon, widget: string}
+                     - {label: Link, name: link, widget: string}

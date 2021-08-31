@@ -96,3 +96,32 @@ collections:
                     fields:
                      - {label: Icon, name: icon, widget: string}
                      - {label: Link, name: link, widget: string}
+
+      - label: "Contact Us Section"
+        name: "contact"
+        file: "data/en/contact.yml"
+        fields:
+          - label: contact
+            name: contact
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Sub Title, name: subtitle, widget: string}
+              - {label: Content, name: content, widget: string}
+              - {label: Enable , name: enable, widget: boolean}
+              - label: contact_list
+                name: contact_list
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Info, name: info, widget: string}
+              - label: contact_form
+                name: contact_form
+                widget: object
+                fields:
+                  - {label: Enable, name: enable, widget: boolean}
+                  - {label: Name, name: name, widget: string}
+                  - {label: Email, name: email, widget: string}
+                  - {label: Subject, name: subject, widget: string}
+                  - {label: Message, name: message, widget: string}
+                  - {label: Submit, name: submit, widget: string}

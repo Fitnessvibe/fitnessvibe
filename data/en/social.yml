@@ -1,15 +1,12 @@
-################################# Testimonial #########################
 social:
-  enable : true
-  social_item :
-    - icon : "ti-facebook"
-      link : "#"
-      enable : true
-    
-    - icon : "ti-youtube"
-      link : "#"
-      enable : true
-      
-    - icon : "ti-instagram"
-      link : "#"
-      enable : true
+  enable: true
+  social_item:
+    - enable: true
+      icon: ti-facebook
+      link: test
+    - enable: true
+      icon: ti-youtube
+      link: '#'
+    - enable: true
+      icon: ti-instagram
+      link: '#'

@@ -30,7 +30,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
           repo: Fastbizz/fitnessvibe.git
-          target_branch: gh-pages
+          target_branch: master
           build_dir: public
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

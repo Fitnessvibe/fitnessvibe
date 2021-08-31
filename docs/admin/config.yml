@@ -44,7 +44,7 @@ collections:
                 fields:
                   - {label: Icon, name: icon, widget: string}
                   - {label: Name, name: name, widget: string}
-                  - {label: Content, name: content, widget: string}
+                  - {label: Content, name: content, widget: text}
 
       - label: "Pricing"
         name: "pricingPage"
@@ -171,7 +171,7 @@ collections:
         file: "data/en/feature.yml"
         fields:
           - label: Feature
-            name: cta
+            name: feature
             widget: object
             fields:
               - {label: Title, name: title, widget: string} 
@@ -203,3 +203,63 @@ collections:
                   - {label: Title, name: title, widget: string}
                   - {label: Icon, name: icon, widget: string}
                   - {label: Count , name: count, widget: string}
+
+      - label: "Testimonials"
+        name: "testimonials"
+        file: "data/en/testimonial.yml"
+        fields:
+          - label: testimonial
+            name: testimonial
+            widget: object
+            fields:
+              - {label: Image, name: bg_image, widget: image}
+              - {label: Enable , name: enable, widget: boolean}
+              - label: testimonial_item
+                name: testimonial_item
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Date, name: date, widget: string}
+                  - {label: Content , name: content, widget: text}
+                  - {label: Image, name: image, widget: image}
+
+      - label: "Portfolio"
+        name: "portfolio"
+        file: "data/en/portfolio.yml"
+        fields:
+          - label: portfolio
+            name: portfolio
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Enable , name: enable, widget: boolean}
+              - label: portfolio_item
+                name: portfolio_item
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Image, name: image, widget: image}
+                  - {label: Categories, name: categories, widget: list}
+                  - {label: Content , name: content, widget: text}
+                  - {label: Link, name: link, widget: string}
+                  
+      - label: "Banner HomePage"
+        name: "banner"
+        file: "data/en/banner.yml"
+        fields:
+          - label: banner
+            name: banner
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Enable , name: enable, widget: boolean}
+              - {label: Icon, name: icon, widget: string}
+              - {label: Content, name: content, widget: text}
+              - {label: Image , name: bg_image, widget: image}
+              - label: button
+                name: button
+                widget: object
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: enable , name: enable, widget: boolean}
+                  - {label: Link, name: link, widget: string}

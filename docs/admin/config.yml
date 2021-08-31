@@ -9,7 +9,6 @@ collections:
   - name: "pages"
     label: "Homepage Sections"
     files:
-
       - label: "Banner HomePage"
         name: "banner"
         file: "data/en/banner.yml"
@@ -265,6 +264,20 @@ collections:
                   - {label: Message, name: message, widget: string}
                   - {label: Submit, name: submit, widget: string}
 
-
-
+      - label: "Social Links"
+        name: "Social"
+        file: "data/en/social.yml"
+        fields:
+          - label: social
+            name: social
+            widget: object
+            fields:
+              - {label: Enable , name: enable, widget: boolean}
+              - label: social_item
+                name: social_item
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Link, name: link, widget: string}
+                  - {label: Enable , name: enable, widget: boolean}
 

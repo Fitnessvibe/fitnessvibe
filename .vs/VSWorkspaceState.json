@@ -3,12 +3,12 @@
     "",
     "\\data",
     "\\data\\en",
-    "\\docs\\admin",
+    "\\themes",
     "\\themes\\meghna-hugo",
     "\\themes\\meghna-hugo\\layouts",
     "\\themes\\meghna-hugo\\layouts\\partials",
     "\\themes\\meghna-hugo\\layouts\\_default"
   ],
-  "SelectedNode": "\\data\\en\\service.yml",
+  "SelectedNode": "\\data\\en\\portfolio.yml",
   "PreviewInSolutionExplorer": false
 }

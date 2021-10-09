@@ -2,10 +2,11 @@ pricing:
   enable: true
   pricing_table:
     - button:
-        label: Test
+        enable: true
+        label: Join
         link: '#'
-      name: Free
-      price: $99
+      name: 1 Month
+      price: '1700'
       services:
         - 1GB Disk Space
         - 10 Email Account
@@ -13,7 +14,7 @@ pricing:
         - 1 GB Storage
         - 10 GB Bandwidth
         - 24/7 Tech Support
-      unit: month
+      unit: Per month
     - button:
         enable: true
         label: Test

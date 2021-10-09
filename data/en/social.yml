@@ -3,10 +3,10 @@ social:
   social_item:
     - enable: true
       icon: ti-facebook
-      link: test
+      link: 'https://facebook.com/fitnessvibeindia/'
     - enable: true
       icon: ti-youtube
-      link: '#'
+      link: 'https://youtube.com/channel/UC3d5yTaLtinzCa2pdoG9anA/featured'
     - enable: true
       icon: ti-instagram
-      link: '#'
+      link: 'https://www.instagram.com/fitnessvibe25/'

@@ -25,14 +25,11 @@ collections:
               - label: buttons
                 name: buttons
                 widget: list
-                 fields:
-                  name: button
-                  widget: object
-                  fields:
-                    - {label: Label, name: label, widget: string}
-                    - {label: enable , name: enable, widget: boolean}
-                    - {label: Link, name: link, widget: string}
-                    - {label: Icon, name: icon, widget: string}
+                fields:
+                  - {label: Label, name: label, widget: string}
+                  - {label: enable , name: enable, widget: boolean}
+                  - {label: Link, name: link, widget: string}
+                  - {label: Icon, name: icon, widget: string}
 
       - label: "About Section"
         name: "aboutPage"

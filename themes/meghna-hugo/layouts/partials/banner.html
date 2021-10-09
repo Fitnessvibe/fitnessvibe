@@ -17,10 +17,14 @@
 		<p>{{ .content | markdownify }}</p>
 
 		{{ range .buttons }}
-			
-			{{ if .enable }}
-			<a href="{{ .link }}" class="btn btn-transparent page-scroll"><span class="{{.icon}}"> </span> {{ .label }}</a>
-			
+			{{ if .enable}}
+				{{ if (eq .type "pagelink")}}
+				<a href="{{ .link }}" class="btn btn-transparent page-scroll"><span class="{{.icon}}"> </span> {{ .label }}</a>
+				{{ end }}
+
+				{{ if (eq .type "tel")}}
+				<a href="tel:{{ .link }}" class="btn btn-transparent page-scroll"><span class="{{.icon}}"> </span> {{ .label }}</a>
+				{{ end }}
 			{{ end }}
 		{{ end }}
 

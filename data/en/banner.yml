@@ -3,12 +3,14 @@ banner:
   buttons:
     - enable: true
       label: Explore Us
-      link: '#services'
+      link: "#services"
+      type: "pagelink"
       icon: ""
         
     - enable: true
       label: Call Us +91 83057 79442
-      link: 'tel:+918305779442'
+      link: "+918305779442"
+      type: "tel"
       icon: "ti-mobile"
         
   content: >-

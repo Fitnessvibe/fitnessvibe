@@ -27,9 +27,10 @@ collections:
                 widget: list
                 fields:
                   - {label: Label, name: label, widget: string}
-                  - {label: enable , name: enable, widget: boolean}
+                  - {label: Enable , name: enable, widget: boolean}
                   - {label: Link, name: link, widget: string}
                   - {label: Icon, name: icon, widget: string}
+                  - {label: Type, name: type, widget: select, options: ["pagelink", "tel"]}
 
       - label: "About Section"
         name: "aboutPage"

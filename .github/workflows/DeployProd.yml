@@ -1,9 +1,10 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CD
+name: ManualDeploy
 
 # Controls when the workflow will run
 on:
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -23,14 +24,13 @@ jobs:
         with:
            extended: true
            
-      - name: Hugo Build 
+      - name: Hugo Build
         run: hugo --baseURL https://www.fitnessvibe.co.in/
            
       - name: GitHub Pages Deploy
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
-          repo: Fastbizz/fitnessvibe
-          target_branch: master
+          target_branch: gh-pages
           build_dir: public
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

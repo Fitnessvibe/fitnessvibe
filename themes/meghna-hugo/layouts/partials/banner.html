@@ -15,11 +15,16 @@
 		{{ end }}
 		<h1>{{ .title | markdownify }}</h1>
 		<p>{{ .content | markdownify }}</p>
-		{{ if .button.enable }}
-		{{ with .button }}
-		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
+
+		{{ range .buttons }}
+			{{ with .button }}
+			{{ if .enable }}
+			<a href="{{ .link }}" class="btn btn-transparent page-scroll"><span class="{{.icon}}"> </span> {{ .label }}</a>
+			{{ end }}
+			{{ end }}
 		{{ end }}
-		{{ end }}
+
+		
 	</div>
 </section>
 {{"<!-- /Welcome Slider-->" | safeHTML}}

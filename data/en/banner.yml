@@ -1,9 +1,18 @@
 banner:
   bg_image: images/backgrounds/hero-area.jpg
-  button:
-    enable: true
-    label: Explore Us
-    link: '#services'
+  buttons:
+    - button:
+        enable: true
+        label: Explore Us
+        link: '#services'
+        icon: ""
+        
+    - button:
+        enable: true
+        label: Call Us +91 83057 79442
+        link: 'tel:+918305779442'
+        icon: "ti-mobile"
+        
   content: >-
     We offers a variety of classes for fitness, yoga and dance enthusiasts with
     different levels. 

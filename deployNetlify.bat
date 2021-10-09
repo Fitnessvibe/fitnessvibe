@@ -1,0 +1,1 @@
+hugo -D --destination netlifypublish --baseURL https://fitnessvibe.netlify.app/

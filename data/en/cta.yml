@@ -1,12 +1,12 @@
 cta:
   bg_image: images/backgrounds/bg-white-wall.jpg
   button:
-    enable: false
-    label: Start a project with us
-    link: '#contact'
+    enable: true
+    label: Call Us To Know More - +91 83057 79442
+    link: 'tel:+918305779442'
   content: >-
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur
-    odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi
-    nostrum.
-  enable: false
-  title: Great Design & Incredible Features
+    We have a team of certified and experienced trainers along with the team of
+    best doctors and nutritionists, who can help you get fit considering your
+    current health conditions by personalized plans.
+  enable: true
+  title: Want to know how we can help you get fit

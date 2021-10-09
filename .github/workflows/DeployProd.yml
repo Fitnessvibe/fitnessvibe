@@ -23,8 +23,8 @@ jobs:
         with:
            extended: true
            
-      - name: Hugo Build
-        run: hugo
+      - name: Hugo Build 
+        run: hugo --baseURL https://www.fitnessvibe.co.in/
            
       - name: GitHub Pages Deploy
         uses: crazy-max/ghaction-github-pages@v2.5.0

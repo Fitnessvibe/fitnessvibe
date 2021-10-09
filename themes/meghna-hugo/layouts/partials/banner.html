@@ -17,10 +17,10 @@
 		<p>{{ .content | markdownify }}</p>
 
 		{{ range .buttons }}
-			{{ with .button }}
+			
 			{{ if .enable }}
 			<a href="{{ .link }}" class="btn btn-transparent page-scroll"><span class="{{.icon}}"> </span> {{ .label }}</a>
-			{{ end }}
+			
 			{{ end }}
 		{{ end }}
 

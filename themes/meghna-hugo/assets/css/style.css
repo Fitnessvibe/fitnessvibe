@@ -1540,6 +1540,8 @@ input#e-mail,
   opacity: 1;
 }
 
+img[alt=MemberTransformationImage] { max-width: 200px; }
+
 .social-icon ul li a i {
   color: #b8bbbe;
   display: inline-block;

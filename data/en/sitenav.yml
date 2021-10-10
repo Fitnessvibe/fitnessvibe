@@ -5,26 +5,32 @@ navigation:
       name: About
       url: '#about'
       weight: 1
+
     - enabled: true
       name: Classes
       url: '#services'
       weight: 2
+
     - enabled: true
       name: Portfolio
       url: '#portfolio'
       weight: 3
-    - enabled: true
+
+    - enabled: false
       name: Team
       url: '#team'
       weight: 4
+      
     - enabled: true
       name: Pricing
       url: '#pricing'
       weight: 5
-    - enabled: false
+
+    - enabled: true
       name: Blog
       url: '#blog'
       weight: 6
+
     - enabled: true
       name: Contact Us
       url: '#contact'

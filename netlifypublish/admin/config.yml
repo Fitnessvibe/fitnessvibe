@@ -336,7 +336,7 @@ collections:
           date_format: 'YYYY-MM-DD', time_format: 'HH:mm', format: 'YYYY-MM-DDT00:00:00+06:00',
         }
       - { label: 'Cover Image', name: 'image', widget: 'image', required: false}
-      - { label: 'Author', name: 'author', widget: 'image', required: false}
+      - { label: 'Author', name: 'author', widget: 'string', default: 'Niharika Singh'}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
   - name: 'Authors' # Used in routes, ie.: /admin/collections/:slug/edit

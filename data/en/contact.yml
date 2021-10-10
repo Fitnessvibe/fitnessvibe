@@ -11,12 +11,16 @@ contact:
       info: >-
         Fitness Vibe , World 1 High Street , Sector 115, Kharar - Landran Road -
         Punjab 140307
+      type: ""
     - icon: ti-direction
       info: 'Landmark: Opposite SBP city of dreams'
+      type: ""
     - icon: ti-mobile
-      info: 'Phone: +91 83057 79442'
+      info: '+91 83057 79442'
+      type: "tel"
     - icon: ti-email
-      info: 'Email: fitnessvibe25@gmail.com'
+      info: 'fitnessvibe25@gmail.com'
+      type: "email"
   content: >-
     We are located at 1st floor of "World 1 High Street" , contact us by calling
     or whatsapp on the below numbers to know more about our services and join us

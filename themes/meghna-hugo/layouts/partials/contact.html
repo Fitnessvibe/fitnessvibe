@@ -26,7 +26,22 @@
 					{{ range .contact_list }}
 					<div class="con-info clearfix">
 						<i class="{{ .icon }}"></i>
-						<span>{{ .info }}</span>
+							{{if eq .type "tel"}}
+							Phone: <a href="tel:{{.info}}"><span>{{ .info }}</span></a>
+							{{ end }}
+
+							{{if eq .type "email"}}
+							Email: <a href="mailto:{{.info}}"><span>{{ .info }}</span></a>
+							{{ end }}
+
+							{{if eq .type "map"}}
+							Email: <a href="mailto:{{.info}}"><span>{{ .info }}</span></a>
+							{{ end }}
+
+
+							{{if eq .type ""}}
+							<span>{{ .info }}</span>
+							{{ end }}
 					</div>
 					{{ end }}
 				</div>

@@ -255,6 +255,7 @@ collections:
                 fields:
                   - {label: Icon, name: icon, widget: string}
                   - {label: Info, name: info, widget: string}
+                  - {label: Type, name: type, widget: select, options: ["tel", "email", "map"]}
               - label: contact_form
                 name: contact_form
                 widget: object

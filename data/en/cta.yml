@@ -3,7 +3,7 @@ cta:
   button:
     enable: true
     label: Call Us To Know More - +91 83057 79442
-    link: 'tel:+918305779442'
+    link: '+918305779442'
   content: >-
     We have a team of certified and experienced trainers along with the team of
     best doctors and nutritionists, who can help you get fit considering your

@@ -1,5 +1,6 @@
 ---
-title: "Niharika Singh"
+Title: "Niharika Singh"
+about: "Managing Director - Fitness Vibe Pvt. Ltd."
 image: "images/uploads/niharika_singh.jpeg"
 email: "fitnessvibe25@gmail.com"
 social:

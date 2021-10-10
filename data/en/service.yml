@@ -32,9 +32,7 @@ service:
       icon: ti-package
       name: Apps Development
     - content: >-
-        Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-        facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus
-        consectetur.
+        Benefits of cardio exercise are the ability to burn fat as fuel, improve muscle mass and avoid obesity.
       icon: ti-pulse
-      name: Networking
+      name: Cardio
   title: Our Services

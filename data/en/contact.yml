@@ -8,10 +8,8 @@ contact:
     submit: Submit
   contact_list:
     - icon: ti-location-pin
-      info: >-
-        Fitness Vibe , World 1 High Street , Sector 115, Kharar - Landran Road -
-        Punjab 140307
-      type: ""
+      info: Fitness Vibe , World 1 High Street , Sector 115, Kharar - Landran Road - Punjab 140307
+      type: "map"
     - icon: ti-direction
       info: 'Landmark: Opposite SBP city of dreams'
       type: ""

@@ -28,6 +28,19 @@
 			{{ end }}
 		{{ end }}
 
+		{{ if $data.social.social.enable }}
+				{{ with $data.social.social }}
+				<div class="social-icon">
+					<ul class="list-inline">
+						{{ range .social_item }}
+						{{ if .enable }}
+						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+						{{ end }}
+						{{ end }}
+					</ul>
+				</div>
+				{{ end }}
+		{{ end }}
 		
 	</div>
 </section>

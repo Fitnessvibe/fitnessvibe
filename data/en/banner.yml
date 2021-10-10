@@ -1,10 +1,10 @@
 banner:
-  bg_image: images/backgrounds/hero-area.jpg
+  bg_image: images/backgrounds/banner.webp
   buttons:
     - enable: true
       icon: ''
-      label: Explore Us
-      link: '#services'
+      label: Why Fitness Vibe?
+      link: '#about'
       type: pagelink
     - enable: true
       icon: ti-mobile
@@ -12,7 +12,6 @@ banner:
       link: '+918305779442'
       type: tel
   content: 
-    We offers a variety of classes for fitness, yoga and dance enthusiasts. 
     Aerobics . Crossfit . Dance fitness classes . Bhangra . HIIT Exercise Classes . Kickboxing . Nutrition consulting . Personal training . Pilates Classes . Weight training . Yoga classes . Zumba
   enable: true
   icon: ''

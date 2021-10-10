@@ -1,9 +1,9 @@
 ---
-title: "Transformation Journey of Our Members - 2020"
-date: 2018-09-12T14:51:12+06:00
-image_webp: images/uploads/transformation8.webp
+title: Transformation Journey of Our Members - 2020
+description: Checkout these amazing health transformation of our members in 2020
+date: 2018-09-12T08:51:12.000Z
+image: /images/uploads/transformation8.webp
 author: Niharika Singh
-description : "Checkout these amazing health transformation of our members in 2020"
 ---
 Checkout these amazing health transformation of our members in 2020
 

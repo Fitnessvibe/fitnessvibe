@@ -1,5 +1,5 @@
 service:
-  enable: false
+  enable: true
   service_item:
     - content: >-
         Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum

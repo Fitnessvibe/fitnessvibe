@@ -296,12 +296,13 @@ collections:
             name: navigation
             widget: object
             fields:
+              - {label: Enable , name: enable, widget: boolean}
               - label: menu_item
                 name: menu_item
                 widget: list
                 fields:
                   - {label: Weight, name: weight, widget: string}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Link, name: title, widget: string}
+                  - {label: Name, name: name, widget: string}
+                  - {label: Url, name: url, widget: string}
                   - {label: Enable , name: enabled, widget: boolean}
                   

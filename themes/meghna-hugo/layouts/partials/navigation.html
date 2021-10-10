@@ -1,3 +1,4 @@
+{{ $data := index site.Data site.Language.Lang }}
 <section class="sticky-top navigation">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark">
@@ -14,14 +15,20 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navigation">
-				<ul class="navbar-nav ml-auto">
-					{{ range site.Menus.main }}
-					<li class="nav-item">
-            <a class="nav-link" {{if findRE `^http` .URL}}target="_blank"{{end}}
-						href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
-					</li>
-					{{ end }}
-				</ul>
+			
+				{{ if $data.sitenav.navigation.enable }}
+				<span>test</span>
+				{{ with $data.sitenav.navigation }}
+					<ul class="navbar-nav ml-auto">
+						{{ range .menu_item }}
+						<li class="nav-item">
+				<a class="nav-link" {{if findRE `^http` .url}}target="_blank"{{end}}
+							href="{{if findRE `^#` .url}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .url }}{{else}}{{.url | relLangURL}}{{end}}">{{ .name }}</a>
+						</li>
+						{{ end }}
+					</ul>
+				{{ end }}
+				{{ end }}
 				<!-- Language List -->
 				{{- if site.IsMultiLingual }}
 				<select id="select-language" onchange="location = this.value;">

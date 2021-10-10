@@ -1,0 +1,33 @@
+navigation:
+  menu_item:
+    - title: "About"
+      link: "#about"
+      weight: 1
+      enabled: true
+    - title: "Services"
+      link: "#services"
+      weight: 2
+      enabled: true
+    - title: "Portfolio"
+      link: "#portfolio"
+      weight: 3
+      enabled: true
+    - title: "Team"
+      link: "#team"
+      weight: 4
+      enabled: true
+    - title: "Pricing"
+      link: "#pricing"
+      weight: 5
+      enabled: true
+    - title: "Blog"
+      link: "#blog"
+      weight: 6
+      enabled: true
+    - title: "Contact Us"
+      link: "#contact"
+      weight: 7
+      enabled: true
+      
+
+

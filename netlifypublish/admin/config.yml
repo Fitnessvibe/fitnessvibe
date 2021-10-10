@@ -285,26 +285,24 @@ collections:
 
 
 
-  - name: "Analytics & Maps"
-    label: "Analytics"
+  - name: "Navigation & Configuration"
+    label: "Navigation & Configuration"
     files:
-      - label: "Banner HomePage"
-        name: "banner"
-        file: "data/en/banner.yml"
+      - label: "Menu Bar"
+        name: "navigation"
+        file: "data/en/sitenav.yml"
         fields:
-          - label: banner
-            name: banner
-            widget: object
+          - label: navigation
+            name: menu_item
+            widget: list
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Enable , name: enable, widget: boolean}
-              - {label: Icon, name: icon, widget: string}
-              - {label: Content, name: content, widget: text}
-              - {label: Image , name: bg_image, widget: image}
-              - label: button
-                name: button
-                widget: object
+              - {label: Intro, name: intro, widget: markdown}
+              - label: about_item
+                name: about_item
+                widget: list
                 fields:
-                  - {label: Label, name: label, widget: string}
-                  - {label: enable , name: enable, widget: boolean}
-                  - {label: Link, name: link, widget: string}
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: string}

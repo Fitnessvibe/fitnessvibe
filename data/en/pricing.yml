@@ -1,5 +1,5 @@
 pricing:
-  enable: true
+  enable: false
   pricing_table:
     - button:
         enable: true

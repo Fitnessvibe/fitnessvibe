@@ -303,5 +303,5 @@ collections:
                   - {label: Weight, name: weight, widget: string}
                   - {label: Title, name: title, widget: string}
                   - {label: Link, name: title, widget: string}
-                  - {label: Enable , name: enable, widget: boolean}
+                  - {label: Enable , name: enabled, widget: boolean}
                   

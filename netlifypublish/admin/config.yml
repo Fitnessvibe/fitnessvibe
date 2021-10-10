@@ -366,10 +366,10 @@ collections:
       - { label: 'Email', name: 'email', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
       - label: social_item
-          name: social_item
-          widget: list
-            - {label: Icon, name: icon, widget: string}
-            - {label: Link, name: link, widget: string}
-            - {label: Enable , name: enable, widget: boolean}
+        name: social_item
+        widget: list
+          - {label: Icon, name: icon, widget: string}
+          - {label: Link, name: link, widget: string}
+          - {label: Enable , name: enable, widget: boolean}
         
       

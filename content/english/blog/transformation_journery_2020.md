@@ -9,5 +9,9 @@ Checkout these amazing health transformation of our members in 2020
 
 Our members chose the healthy lifestyle and with the help of our trainers they have become healthier.
 
-   * Member 1
-![Example image](images/uploads/transformation8.webp)
+# Member 1
+![Example image](/images/uploads/transformation1.webp)
+
+
+# Member 2
+![Example image](/images/uploads/transformation2.webp)

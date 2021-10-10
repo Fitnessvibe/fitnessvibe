@@ -292,7 +292,7 @@ collections:
         name: "navigation"
         file: "data/en/sitenav.yml"
         fields:
-          - label: navigation
+          - label: menu_item
             name: menu_item
             widget: list
             fields:

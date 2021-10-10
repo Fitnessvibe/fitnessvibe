@@ -289,15 +289,19 @@ collections:
     label: "Navigation & Configuration"
     files:
       - label: "Menu Bar"
-        name: "navigation"
+        name: "Navigation"
         file: "data/en/sitenav.yml"
         fields:
-          - label: menu_item
-            name: menu_item
-            widget: list
+          - label: navigation
+            name: navigation
+            widget: object
             fields:
-              - {label: Weight, name: weight, widget: string}
-              - {label: Title, name: title, widget: string}
-              - {label: Link, name: title, widget: string}
-              - {label: Enable , name: enable, widget: boolean}
+              - label: menu_item
+                name: menu_item
+                widget: list
+                fields:
+                  - {label: Weight, name: weight, widget: string}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Link, name: title, widget: string}
+                  - {label: Enable , name: enable, widget: boolean}
                   

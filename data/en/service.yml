@@ -1,38 +1,40 @@
 service:
   enable: true
   service_item:
-    - content: >-
-        Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-        facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus
-        consectetur.
+    - content: 
       icon: ti-world
-      name: WordPress Theme
-    - content: >-
-        Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-        facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus
-        consectetur.
-      icon: ti-layout
-      name: Responsive Design
-    - content: >-
-        Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-        facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus
-        consectetur.
-      icon: ti-blackboard
-      name: Media &amp; Advertisement
-    - content: >-
-        Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-        facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus
-        consectetur.
-      icon: ti-palette
-      name: Graphic Design
-    - content: >-
-        Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-        facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus
-        consectetur.
-      icon: ti-package
-      name: Apps Development
-    - content: >-
-        Benefits of cardio exercise are the ability to burn fat as fuel, improve muscle mass and avoid obesity.
+      name: Personal Training
+
+    - content: 
       icon: ti-pulse
       name: Cardio
+
+    - content: 
+      icon: ti-world
+      name: Aerobics
+
+    - content: 
+      icon: ti-layout
+      name: CrossFit
+
+    - content: 
+      icon: ti-blackboard
+      name: HIIT
+
+    - content: 
+      icon: ti-palette
+      name: Kettle Bell
+
+    - content: 
+      icon: ti-package
+      name: Weight training
+
+    - content: 
+      icon: ti-package
+      name: Yoga
+    
+    - content: 
+      icon: ti-package
+      name: Zumba
+
   title: Our Classes

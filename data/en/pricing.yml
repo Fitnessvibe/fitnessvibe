@@ -1,52 +1,64 @@
 pricing:
-  enable: false
+  enable: true
   pricing_table:
     - button:
         enable: true
-        label: Join
-        link: '#'
+        label: Contact Us Today
+        link: '#contact'
       name: 1 Month
-      price: '1700'
+      price: '₹1800'
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Aerobics & Zumba
+        - Yoga & CrossFit 
+        - HIIT & Kettle Bell
+        - Bollywood Dance & Bhangra
+        - Weight & Strength Training
+
       unit: Per month
     - button:
         enable: true
-        label: Test
-        link: '#'
-      name: Silver
-      price: $149
+        label: Contact Us Today
+        link: '#contact'
+      name: 3 Month
+      price: '₹4800'
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      unit: month
-    - name: Gold
-      price: $199
+        - 1 Free Nutrition Chart
+        - Free First Consultatiuon with Dr. Satbir Singh
+        - Aerobics & Zumba
+        - Yoga & CrossFit 
+        - HIIT & Kettle Bell
+        - Bollywood Dance & Bhangra
+        - Weight & Strength Training
+
+      unit: Save ₹600
+    - button:
+        enable: true
+        label: Contact Us Today
+        link: '#contact'
+      name: 6 Month
+      price: '₹8400'
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      unit: month
-    - name: Platinum
-      price: $299
+        - 1 Free Nutrition Chart
+        - Free First Consultatiuon with Dr. Satbir Singh
+        - Aerobics & Zumba
+        - Yoga & CrossFit 
+        - HIIT & Kettle Bell
+        - Bollywood Dance & Bhangra
+        - Weight & Strength Training
+      unit: Save ₹2400
+    - button:
+        enable: true
+        label: Contact Us Today
+        link: '#contact'
+      name: 12 Months
+      price: '₹14400'
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      unit: month
+        - 1 Free Nutrition Chart
+        - Free First Consultatiuon with Dr. Satbir Singh
+        - Aerobics & Zumba
+        - Yoga & CrossFit 
+        - HIIT & Kettle Bell
+        - Bollywood Dance & Bhangra
+        - Weight & Strength Training
+      unit: Save ₹7200
   title: Our Plans

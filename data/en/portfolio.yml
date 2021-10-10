@@ -1,62 +1,47 @@
 portfolio:
-  enable: false
+  enable: true
   portfolio_item:
     - categories:
-        - design
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-1.jpg
-      link: 'https://themefisher.com'
-      name: Tag Design
+        - Transformation
+      content: 
+      image: "images/uploads/transformation10.jpeg"
+      name: Tranformation
+
     - categories:
-        - development
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-2.jpg
-      link: ''
-      name: Sound system
+        - Transformation
+      content: 
+      image: "images/uploads/transformation8.webp"
+      name: Tranformation
+
     - categories:
-        - design
-        - development
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-3.jpg
-      link: '#'
-      name: Clock Product
+        - Transformation
+      content: 
+      image: "images/uploads/transformation7.webp"
+      name: Tranformation
+
     - categories:
-        - photography
-        - development
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-4.jpg
-      link: '#'
-      name: Bottol Label
+        - Transformation
+      content: 
+      image: "images/uploads/transformation9.webp"
+      name: Tranformation
+
     - categories:
-        - design
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-5.jpg
-      link: '#'
-      name: Shopping Bag
+        - Transformation
+      content: 
+      image: "images/uploads/transformation4.webp"
+      name: Tranformation
+
     - categories:
-        - photography
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-6.jpg
-      link: '#'
-      name: Tag Design
+        - Transformation
+      content: 
+      image: "images/uploads/transformation5.webp"
+      name: Tranformation
+
     - categories:
-        - development
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-7.jpg
-      link: '#'
-      name: Business Card
-    - categories:
-        - design
-        - development
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-8.jpg
-      link: '#'
-      name: Stationary Design
-    - categories:
-        - design
-        - photography
-      content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      image: images/portfolio/portfolio-2.jpg
-      link: '#'
-      name: Tag Design
+        - Transformation
+      content: 
+      image: "images/uploads/transformation6.webp"
+      name: Tranformation
+
+
   title: Our Works

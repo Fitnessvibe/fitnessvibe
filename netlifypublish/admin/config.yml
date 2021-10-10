@@ -296,13 +296,8 @@ collections:
             name: menu_item
             widget: list
             fields:
+              - {label: Weight, name: weight, widget: string}
               - {label: Title, name: title, widget: string}
+              - {label: Link, name: title, widget: string}
               - {label: Enable , name: enable, widget: boolean}
-              - {label: Intro, name: intro, widget: markdown}
-              - label: about_item
-                name: about_item
-                widget: list
-                fields:
-                  - {label: Icon, name: icon, widget: string}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Content, name: content, widget: string}
+                  

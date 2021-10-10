@@ -1,6 +1,5 @@
 {{"<!-- end Contact Area -->" | safeHTML}}
 {{ $data := index site.Data site.Language.Lang }}
-
 <footer id="footer" class="section-bg">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
@@ -13,7 +12,7 @@
 					<ul class="list-inline">
 						{{ range .social_item }}
 						{{ if .enable }}
-						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+						<li class="list-inline-item" ><a style="color:white" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 						{{ end }}
 					</ul>
@@ -35,10 +34,6 @@
 </footer>
 {{"<!-- /footer -->" | safeHTML}}
 
-{{ "<!-- Google Map API -->" | safeHTML }}
-{{ if site.Params.map.enable }}
-<script src="{{ site.Params.map.gmap_api | safeURL }}"></script>
-{{ end }}
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range site.Params.plugins.js}}

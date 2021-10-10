@@ -8,16 +8,16 @@ feature:
   feature_item : 
     - title : Certified Trainers
       icon : ti-star
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Our trainers are experts at what they do be it Dance, Core, HIIT, Yoga or any other form of trainings.
       
-    - title : Women Lead
-      icon : ti-panel 
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Family Friendly
+      icon : ti-face-smile 
+      content : We are a Family Friendly fitness and dance studio, so you can join be worry free about your safety and enjoy a healthy workout environment.
 
-    - title : SEO Optimized
-      icon : ti-stats-up 
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Dance All You Want
+      icon : ti-bolt
+      content : We have dedicated dance classess for someone who wants to learn or practice only dance everyday.
       
     - title : Something Different
       icon : ti-rocket
-      content : 
+      content : We offer a different workout schedule every week so you can enjoy a different workout every week and get away from the monotonous gym schedule.

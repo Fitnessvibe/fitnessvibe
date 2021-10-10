@@ -6,7 +6,7 @@ navigation:
       url: '#about'
       weight: 1
     - enabled: true
-      name: Services
+      name: Classes
       url: '#services'
       weight: 2
     - enabled: true

@@ -63,11 +63,7 @@ expire_days = 2
 # google map
 [params.map]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
- 
+gmap_api = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.718650241158!2d76.6488717151313!3d30.726308981639473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef0014dcea1b%3A0xcc98febb64064ff2!2sFitness%20VIBE!5e0!3m2!1sen!2sus!4v1633841186469!5m2!1sen!2sus"
 
 ################################ English Language ########################
 [Languages.en]

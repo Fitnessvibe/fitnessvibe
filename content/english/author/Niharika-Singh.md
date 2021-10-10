@@ -1,6 +1,6 @@
 ---
 title: "Niharika Singh"
-image: ""
+image: "images/uploads/niharika_singh.jpeg"
 email: "fitnessvibe25@gmail.com"
 social:
   - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons

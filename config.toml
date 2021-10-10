@@ -43,10 +43,10 @@ link = "plugins/google-map/map.js"
 [params]
 logo = "images/logowithtitle.svg"
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+description = "Best dance and fitness studio with certified and expert trainers. Family friendly and healthy workout environment, so dont hesitate to join us today."
+author = "EventMojos"
 # Google Analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "G-W36LZ8JXHM" # Your ID
 # post share
 post_share = true
 

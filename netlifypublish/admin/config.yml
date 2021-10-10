@@ -336,5 +336,42 @@ collections:
         }
       - { label: 'Cover Image', name: 'image', widget: 'image', required: false}
       - { label: 'Author', name: 'author', widget: 'image', required: false}
-      - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+
+  - name: 'Authors' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Authors' # Used in the UI
+    label_singular: 'New Authors' # Used in the UI, ie: "New Post"
+    folder: 'content/english/author'
+    slug: '{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    view_filters:
+      - label: Posts With Index
+        field: title
+        pattern: 'This is post #'
+      - label: Posts Without Index
+        field: title
+        pattern: front matter post
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+      - label: Drafts
+        field: draft
+    fields: # The fields each document in this collection have
+      - { label: 'Name', name: 'title', widget: 'string', tagname: 'h1' }
+      - { label: 'Cover Image', name: 'image', widget: 'image', required: false}
+      - { label: 'Email', name: 'email', widget: 'string'}
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+      fields:
+         - label: social_item
+          name: social_item
+          widget: list
+          fields:
+            - {label: Icon, name: icon, widget: string}
+            - {label: Link, name: link, widget: string}
+            - {label: Enable , name: enable, widget: boolean}
+      
+      

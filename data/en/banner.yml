@@ -1,20 +1,19 @@
 banner:
   bg_image: images/backgrounds/hero-area.jpg
+  buttons:
+    - enable: true
+      icon: ''
+      label: Explore Us
+      link: '#services'
+      type: pagelink
+    - enable: true
+      icon: ti-mobile
+      label: Call Us +91 8305779442
+      link: '+918305779442'
+      type: tel
   content: >-
     We offers a variety of classes for fitness, yoga and dance enthusiasts with
     different levels. 
   enable: true
   icon: ''
   title: Fitness Vibe | Fitness & Dance Studio
-  buttons:
-      - enable: true
-        label: Explore Us
-        link: "#services"
-        type: "pagelink"
-        icon: ""
-          
-      - enable: true
-        label: Call Us +91 83057 79442
-        link: "+918305779442"
-        type: "tel"
-        icon: "ti-mobile"

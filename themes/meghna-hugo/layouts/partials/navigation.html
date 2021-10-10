@@ -20,10 +20,12 @@
 				{{ with $data.sitenav.navigation }}
 					<ul class="navbar-nav ml-auto">
 						{{ range .menu_item }}
+						{{ if .enabled }}
 						<li class="nav-item">
 				<a class="nav-link" {{if findRE `^http` .url}}target="_blank"{{end}}
 							href="{{if findRE `^#` .url}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{ .url }}{{else}}{{.url | relLangURL}}{{end}}">{{ .name }}</a>
 						</li>
+						{{ end }}
 						{{ end }}
 					</ul>
 				{{ end }}

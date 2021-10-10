@@ -301,8 +301,8 @@ collections:
                 name: menu_item
                 widget: list
                 fields:
-                  - {label: Weight, name: weight, widget: string}
                   - {label: Name, name: name, widget: string}
                   - {label: Url, name: url, widget: string}
                   - {label: Enable , name: enabled, widget: boolean}
+                  - {label: Weight, name: weight, widget: string}
                   

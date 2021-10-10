@@ -266,25 +266,6 @@ collections:
                   - {label: Message, name: message, widget: string}
                   - {label: Submit, name: submit, widget: string}
 
-      - label: "Social Links"
-        name: "Social"
-        file: "data/en/social.yml"
-        fields:
-          - label: social
-            name: social
-            widget: object
-            fields:
-              - {label: Enable , name: enable, widget: boolean}
-              - label: social_item
-                name: social_item
-                widget: list
-                fields:
-                  - {label: Icon, name: icon, widget: string}
-                  - {label: Link, name: link, widget: string}
-                  - {label: Enable , name: enable, widget: boolean}
-
-
-
   - name: "Navigation & Configuration"
     label: "Navigation & Configuration"
     files:
@@ -305,4 +286,55 @@ collections:
                   - {label: Url, name: url, widget: string}
                   - {label: Enable , name: enabled, widget: boolean}
                   - {label: Weight, name: weight, widget: string}
-                  
+
+      - label: "Social Links"
+        name: "Social"
+        file: "data/en/social.yml"
+        fields:
+          - label: social
+            name: social
+            widget: object
+            fields:
+              - {label: Enable , name: enable, widget: boolean}
+              - label: social_item
+                name: social_item
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: string}
+                  - {label: Link, name: link, widget: string}
+                  - {label: Enable , name: enable, widget: boolean}
+
+  - name: 'Posts' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Blog Post' # Used in the UI
+    label_singular: 'New Blog Post' # Used in the UI, ie: "New Post"
+    folder: 'content/english/blog'
+    slug: '{{slug}}'
+    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
+    create: true # Allow users to create new documents in this collection
+    view_filters:
+      - label: Posts With Index
+        field: title
+        pattern: 'This is post #'
+      - label: Posts Without Index
+        field: title
+        pattern: front matter post
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+      - label: Drafts
+        field: draft
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - { label: 'Description', name: 'description', widget: 'string'}
+      - { 
+          label: 'Publish Date', name: 'date', widget: 'datetime',
+          date_format: 'YYYY-MM-DD', time_format: 'HH:mm', format: 'YYYY-MM-DDT00:00:00+06:00',
+        }
+      - { label: 'Cover Image', name: 'image', widget: 'image', required: false}
+      - { label: 'Author', name: 'author', widget: 'image', required: false}
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }

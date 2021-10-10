@@ -365,11 +365,9 @@ collections:
       - { label: 'Cover Image', name: 'image', widget: 'image', required: false}
       - { label: 'Email', name: 'email', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
-      fields:
-        - label: social_item
+      - label: social_item
           name: social_item
           widget: list
-          fields:
             - {label: Icon, name: icon, widget: string}
             - {label: Link, name: link, widget: string}
             - {label: Enable , name: enable, widget: boolean}

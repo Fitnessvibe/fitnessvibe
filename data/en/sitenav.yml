@@ -1,34 +1,31 @@
 navigation:
   enable: true
   menu_item:
-    - name: "About"
-      url: "#about"
+    - enabled: true
+      name: About
+      url: '#about'
       weight: 1
-      enabled: true
-    - name: "Services"
-      url: "#services"
+    - enabled: true
+      name: Services
+      url: '#services'
       weight: 2
-      enabled: true
-    - name: "Portfolio"
-      url: "#portfolio"
+    - enabled: true
+      name: Portfolio
+      url: '#portfolio'
       weight: 3
-      enabled: true
-    - name: "Team"
-      url: "#team"
+    - enabled: true
+      name: Team
+      url: '#team'
       weight: 4
-      enabled: true
-    - name: "Pricing"
-      url: "#pricing"
+    - enabled: true
+      name: Pricing
+      url: '#pricing'
       weight: 5
-      enabled: true
-    - name: "Blog"
-      url: "#blog"
+    - enabled: false
+      name: Blog
+      url: '#blog'
       weight: 6
-      enabled: true
-    - name: "Contact Us"
-      url: "#contact"
+    - enabled: true
+      name: Contact Us
+      url: '#contact'
       weight: 7
-      enabled: true
-      
-
-

@@ -4,44 +4,44 @@ pricing:
     - button:
         enable: true
         label: Contact Us Today
-        link: '#contact'
+        link: "#contact"
       name: 1 Month
-      price: '₹1800'
+      price: ₹1800
       services:
+        - X
+        - X
         - Aerobics & Zumba
-        - Yoga & CrossFit 
+        - Yoga & CrossFit
         - HIIT & Kettle Bell
         - Bollywood Dance & Bhangra
         - Weight & Strength Training
-
       unit: Per month
     - button:
         enable: true
         label: Contact Us Today
-        link: '#contact'
+        link: "#contact"
       name: 3 Month
-      price: '₹4800'
+      price: ₹4800
       services:
         - 1 Free Nutrition Chart
         - Free First Consultatiuon with Dr. Satbir Singh
         - Aerobics & Zumba
-        - Yoga & CrossFit 
+        - Yoga & CrossFit
         - HIIT & Kettle Bell
         - Bollywood Dance & Bhangra
         - Weight & Strength Training
-
       unit: Save ₹600
     - button:
         enable: true
         label: Contact Us Today
-        link: '#contact'
+        link: "#contact"
       name: 6 Month
-      price: '₹8400'
+      price: ₹8400
       services:
         - 1 Free Nutrition Chart
         - Free First Consultatiuon with Dr. Satbir Singh
         - Aerobics & Zumba
-        - Yoga & CrossFit 
+        - Yoga & CrossFit
         - HIIT & Kettle Bell
         - Bollywood Dance & Bhangra
         - Weight & Strength Training
@@ -49,14 +49,14 @@ pricing:
     - button:
         enable: true
         label: Contact Us Today
-        link: '#contact'
+        link: "#contact"
       name: 12 Months
-      price: '₹14400'
+      price: ₹14400
       services:
         - 1 Free Nutrition Chart
         - Free First Consultatiuon with Dr. Satbir Singh
         - Aerobics & Zumba
-        - Yoga & CrossFit 
+        - Yoga & CrossFit
         - HIIT & Kettle Bell
         - Bollywood Dance & Bhangra
         - Weight & Strength Training

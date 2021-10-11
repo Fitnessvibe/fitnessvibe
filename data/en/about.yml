@@ -1,14 +1,26 @@
 about:
   about_item:
-    - content: 'Train with our experts to drive your results. We specialize in CrossFit, TRX, Pilates, Strength & Conditioning, Yoga, Dance and much more.'
+    - content: >-
+        Train with our experts to drive your results. We specialize in CrossFit,
+        TRX, Pilates, Strength & Conditioning, Yoga, Dance and much more.
       icon: ti-cup
       title: 'Dedicated & Expert Trainers '
-    - content: 'We keep our batches with a limited participants so our trainers can be focused on each and every indiviual. It is a like having a personal trainer at the a regular training cost'
+    - content: >-
+        We keep our batches with a limited participants so our trainers can be
+        focused on each and every indiviual. It is a like having a personal
+        trainer at the a regular training cost
       icon: ti-cup
-      title: 'Small Batches'
-    - content: 'Our taam has best sports and nutritionist doctors who are available for consultaition and trainings when you need. You are at the best facility for overall health and fitness.'
+      title: Small Batches
+    - content: >-
+        Our team has best sports and nutritionist doctors who are available for
+        consultaition and trainings when you need. You are at the best facility
+        for overall health and fitness.
       icon: ti-thought
-      title: 'Lead By Doctors'
+      title: Lead By Professionals
   enable: true
-  intro: We believe that fitness is not a buy one get one deal. At the end of the day, your fitness is not measured by the number of times you complete a workout, but by how you feel when you leave and we are here to motivate you to achieve your goals and feel good with results!
+  intro: >-
+    We believe that fitness is not a buy one get one deal. At the end of the
+    day, your fitness is not measured by the number of times you complete a
+    workout, but by how you feel when you leave and we are here to motivate you
+    to achieve your goals and feel good with results!
   title: Why FitnessVibe?

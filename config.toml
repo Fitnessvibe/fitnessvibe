@@ -52,12 +52,12 @@ post_share = true
 
 # preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/logowithtitle.svg"
 
 # cookies
 [params.cookies]
-enable = false
+enable = true
 expire_days = 2
 
 # google map

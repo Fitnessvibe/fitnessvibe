@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://abhimanyughei.github.io/fitnessvibe/"
-title = "Fitness Vibe"
+title = "Fitness Vibe - Dance & Fitness Studio"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -8,6 +8,7 @@ paginate = "6"
 summaryLength = "15"
 # disable language
 disableLanguages = ['fr']
+enableRobotsTXT = true
 
 ############################# Plugins ##########################
 # css plugins

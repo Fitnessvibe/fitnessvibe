@@ -362,13 +362,13 @@ collections:
       - label: Drafts
         field: draft
     fields: # The fields each document in this collection have
-      - { label: 'Name', name: 'title', widget: 'string', tagname: 'h1' }
+      - { label: 'Name', name: 'Title', widget: 'string', tagname: 'h1' }
       - { label: 'Cover Image', name: 'image', widget: 'image', required: false}
       - { label: 'Email', name: 'email', widget: 'string'}
       - { label: 'about', name: 'about', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
-      - label: social_item
-        name: social_item
+      - label: social
+        name: social
         widget: list
         fields:
           - {label: Icon, name: icon, widget: string}

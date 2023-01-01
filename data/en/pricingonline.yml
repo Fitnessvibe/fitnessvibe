@@ -1,4 +1,4 @@
-pricing:
+pricingonline:
   enable: true
   pricing_table:
     - button:

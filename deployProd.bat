@@ -1,1 +1,1 @@
-hugo -D --destination E:\Hugo\Production\fitnessvibe --baseURL https://fitnessvibe.co.in/
+hugo -D --destination E:\Hugo\Production\fitnessvibe --baseURL https://fitnessvibe.in/

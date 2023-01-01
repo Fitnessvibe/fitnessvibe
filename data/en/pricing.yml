@@ -9,6 +9,7 @@ pricing:
       price: ₹2199
       services:
         - Access to studio
+        - 
       unit: Per month
     - button:
         enable: true

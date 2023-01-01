@@ -8,7 +8,7 @@ pricingonline:
       name: 1 Month
       price: ₹2199
       services:
-        - Access to studio
+        - Fully Online Classes
       unit: Per month
     - button:
         enable: true
@@ -17,7 +17,7 @@ pricingonline:
       name: 3 Month
       price: ₹5999
       services:
-        - Access to studio
+        - Fully Online Classes
       unit: Save ₹600
     - button:
         enable: true
@@ -26,7 +26,7 @@ pricingonline:
       name: 6 Month
       price: ₹10,799
       services:
-        - Access to studio
+        - Fully Online Classes
       unit: Save ₹2400
     - button:
         enable: true
@@ -35,6 +35,6 @@ pricingonline:
       name: 12 Months
       price: ₹19,999
       services:
-        - Access to studio
+        - Fully Online Classes
       unit: Save ₹7200
-  title: In Studio Plans
+  title: Online Plans

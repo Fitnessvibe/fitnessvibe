@@ -1,28 +1,34 @@
 testimonial:
   bg_image: images/backgrounds/bg-testimonial.jpg
-  enable: false
+  enable: true
   testimonial_item:
     - content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-        minima ex, quia error, deserunt voluptatibus repellendus? Incidunt
-        eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione
-        non consequuntur!
-      date: 'Dec 26, 2018'
+        Just want to share my experience with u guys. My 5 month journey z awesome, I reduced 11 kg in 5 months and it because of my trainer guidelines Neharika mam. I am very satisfied with service provided by fitness vibe. Special thx to Niharika mam & Saras. I would recommend to join fleetness vibe and m sure you guys ll enjoy and see changes in yourself very soon.
+      date: '5 Months Ago'
       image: images/client/client-1.jpg
-      name: Jonathon Andrew
+      name: Vitesh Kumari
     - content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-        minima ex, quia error, deserunt voluptatibus repellendus? Incidunt
-        eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione
-        non consequuntur!
-      date: 'Dec 26, 2018'
+        Their fitness program is the best with well-trained young trainers giving attention to all the members of a batch. I am 100% satisfied as i lost nearly 4 kgs in 1.5 months of joining them. 😊
+      date: '1 Week Ago'
       image: images/client/client-2.jpg
-      name: Mark Dinn
+      name: Mugdha Mitra
     - content: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-        minima ex, quia error, deserunt voluptatibus repellendus? Incidunt
-        eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione
-        non consequuntur!
-      date: 'Dec 26, 2018'
+        Fitness Vibe is a great place to work out. There is a balance of cardio, strength training, aerobics, yoga and dance classes to fit all fitness levels! The coaches are fun and encouraging.
+      date: '1 Month Ago'
       image: images/client/client-1.jpg
-      name: Lemos Kail
+      name: Pooja Mahajan
+    - content: >-
+        Fitness Vibe is a great place to work out. There is a balance of cardio, strength training, aerobics, yoga and dance classes to fit all fitness levels! The coaches are fun and encouraging.
+      date: '2 Month Ago'
+      image: images/client/client-1.jpg
+      name: Ritika Arora
+    - content: >-
+        If you are looking for complete body workout this is perfect place Niharika Ma'am and Vijay Sir are best  person to guide you in your weight loss and complete body transformation. Must join for your Perfect Well being 👌
+      date: '2 Month Ago'
+      image: images/client/client-1.jpg
+      name: Reetu Narula
+    - content: >-
+        We as a parent are so glad that we put our ward Myra into summer camp under the leadership of Ms. Niharika. Our daughter had not only learnt new things but her confidence level has also drastically shoot up. Thanks to the faculty members who put their hard work to shape the future of budding children. We surely recommend Fitness Vibe for all what they have done. All the best to them for their future assignments.
+      date: '6 Month Ago'
+      image: images/client/client-1.jpg
+      name: Aalok Wadhwa

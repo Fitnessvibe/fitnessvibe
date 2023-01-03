@@ -23,22 +23,4 @@ pricingonline:
         - Yoga Classes
         - Fitness Classes
       unit: Save ₹300
-    - button:
-        enable: true
-        label: Contact Us Today
-        link: "#contact"
-      name: 
-      price: ₹10,799
-      services:
-        - Fully Online Classes
-      unit: Save ₹2400
-    - button:
-        enable: true
-        label: Contact Us Today
-        link: "#contact"
-      name: 12 Months
-      price: ₹19,999
-      services:
-        - Fully Online Classes
-      unit: Save ₹7200
   title: Online Plans

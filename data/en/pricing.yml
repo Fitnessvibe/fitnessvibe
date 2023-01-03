@@ -9,6 +9,7 @@ pricing:
       price: ₹1999
       services:
         - Access to studio
+        - Regular group classes
       unit: Per month
     - button:
         enable: true
@@ -18,6 +19,7 @@ pricing:
       price: ₹5699
       services:
         - Access to studio
+        - Regular group classes
       unit: Save ₹298
     - button:
         enable: true
@@ -27,6 +29,7 @@ pricing:
       price: ₹9,999
       services:
         - Access to studio
+        - Regular group classes
       unit: Save ₹1794
     - button:
         enable: true
@@ -36,6 +39,7 @@ pricing:
       price: ₹14,999
       services:
         - Access to studio
+        - Regular group classes
       unit: Save ₹8989
      - button:
         enable: true

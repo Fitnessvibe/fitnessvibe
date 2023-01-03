@@ -37,4 +37,30 @@ pricing:
       services:
         - Access to studio
       unit: Save ₹8989
+     - button:
+        enable: true
+        label: Contact Us Today
+        link: "#contact"
+      name: Speed Slip Program - 100 Days
+      price: ₹23,999
+      services:
+        - Access to studio
+        - Goal based program to achieve target weight in 100 days.
+        - Calory deficit & customized nutrition plans.
+        - Personal training sessions.
+        - Personal attention and monitoring of goal.
+        - Payback guarantee. 
+      unit: Save ₹8989
+      - button:
+        enable: true
+        label: Contact Us Today
+        link: "#contact"
+      name: Bridal Fitness - 3 Month
+      price: ₹13,499
+      services:
+        - Access to studio.
+        - Customized diet plan for weight management.
+        - Complete suppliment range available for healty skin and hair.
+        - Two times access to the studio.
+      unit: Specialized Goal Based Program
   title: In Studio Plans

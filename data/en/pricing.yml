@@ -41,7 +41,7 @@ pricing:
         - Access to studio
         - Regular group classes
       unit: Save ₹8989
-     - button:
+    - button:
         enable: true
         label: Contact Us Today
         link: "#contact"
@@ -55,7 +55,7 @@ pricing:
         - Personal attention and monitoring of goal.
         - Payback guarantee. 
       unit: Save ₹8989
-      - button:
+    - button:
         enable: true
         label: Contact Us Today
         link: "#contact"

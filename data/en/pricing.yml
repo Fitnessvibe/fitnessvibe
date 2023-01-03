@@ -6,36 +6,35 @@ pricing:
         label: Contact Us Today
         link: "#contact"
       name: 1 Month
-      price: ₹2199
+      price: ₹1999
       services:
         - Access to studio
-        - 
       unit: Per month
     - button:
         enable: true
         label: Contact Us Today
         link: "#contact"
       name: 3 Month
-      price: ₹5999
+      price: ₹5699
       services:
         - Access to studio
-      unit: Save ₹600
+      unit: Save ₹298
     - button:
         enable: true
         label: Contact Us Today
         link: "#contact"
       name: 6 Month
-      price: ₹10,799
+      price: ₹9,999
       services:
         - Access to studio
-      unit: Save ₹2400
+      unit: Save ₹1794
     - button:
         enable: true
         label: Contact Us Today
         link: "#contact"
       name: 12 Months
-      price: ₹19,999
+      price: ₹14,999
       services:
         - Access to studio
-      unit: Save ₹7200
+      unit: Save ₹8989
   title: In Studio Plans

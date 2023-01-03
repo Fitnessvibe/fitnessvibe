@@ -6,24 +6,28 @@ pricingonline:
         label: Contact Us Today
         link: "#contact"
       name: 1 Month
-      price: ₹2199
+      price: ₹1599
       services:
         - Fully Online Classes
+        - Yoga Classes
+        - Fitness Classes
       unit: Per month
     - button:
         enable: true
         label: Contact Us Today
         link: "#contact"
       name: 3 Month
-      price: ₹5999
+      price: ₹4497
       services:
         - Fully Online Classes
-      unit: Save ₹600
+        - Yoga Classes
+        - Fitness Classes
+      unit: Save ₹300
     - button:
         enable: true
         label: Contact Us Today
         link: "#contact"
-      name: 6 Month
+      name: 
       price: ₹10,799
       services:
         - Fully Online Classes

@@ -54,7 +54,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/logowithtitle.svg"
+preloader = "images/kpck07ci3ilchwvo7g.png"
 
 # cookies
 [params.cookies]

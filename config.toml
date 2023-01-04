@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://abhimanyughei.github.io/fitnessvibe/"
+baseURL = "https://fitnessvibe.in/"
 title = "Fitness Vibe - Dance & Fitness Studio"
 theme = "meghna-hugo"
 # post pagination
@@ -54,7 +54,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/kpck07ci3ilchwvo7g.png"
+preloader = "images/logowithtitle.svg"
 
 # cookies
 [params.cookies]

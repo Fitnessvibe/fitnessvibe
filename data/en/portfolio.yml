@@ -2,6 +2,12 @@ portfolio:
   enable: true
   portfolio_item:
     - categories:
+        - Studio
+      content: 
+      image: "images/uploads/studio1.jpeg"
+      name: Studio
+
+    - categories:
         - Transformation
       content: 
       image: "images/uploads/transformation10.jpeg"

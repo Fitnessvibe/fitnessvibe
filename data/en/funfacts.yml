@@ -13,4 +13,4 @@ funfacts:
     - count: '20'
       icon: ti-gift
       title: Variations
-  enable: true
+  enable: false

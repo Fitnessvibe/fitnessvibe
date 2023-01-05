@@ -42,7 +42,7 @@ link = "plugins/google-map/map.js"
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/kpck07ci3ilchwvo7g.png"
+logo = "images/logowithtitle.svg"
 # Meta data
 description = "Best dance and fitness studio with certified and expert trainers. Family friendly and healthy workout environment, so dont hesitate to join us today."
 author = "EventMojos"
@@ -54,7 +54,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/kpck07ci3ilchwvo7g.png"
+preloader = "images/logowithtitle.svg"
 
 # cookies
 [params.cookies]

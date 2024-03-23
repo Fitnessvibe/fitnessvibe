@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Fitness Vibe - Dance &amp; Fitness Studio</title>
+    <link>https://fitnessvibe.in/author/</link>
+    <description>Recent content in Authors on Fitness Vibe - Dance &amp; Fitness Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2023 Fitness Vibe</copyright>
+    <atom:link href="https://fitnessvibe.in/author/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Niharika Singh</title>
+      <link>https://fitnessvibe.in/author/niharika-singh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fitnessvibe.in/author/niharika-singh/</guid>
+      <description>Niharika Singh</description>
+    </item>
+  </channel>
+</rss>
